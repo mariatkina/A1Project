@@ -25,6 +25,8 @@ public class MainPage extends BaseView {
     public WebElement submitButton;
 
     public final String message = "//p[@class='iziToast-message slideIn']";
+    @FindBy(xpath = "//p[@class='iziToast-message slideIn']")
+    public WebElement messageWindow;
     public final String messageText = "//p[@class='iziToast-message slideIn']//div[@class='toast-content-text']";
 
 
@@ -50,9 +52,10 @@ public class MainPage extends BaseView {
     public void enterEmail(String email){
         emailField.sendKeys(email);
         actions.moveToElement(submitButton).click().perform();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(message)));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(messageText)));
 
     }
+    //Метод объединяет прокрутку до поля ввода адреса, ввод и нажатие кнопки
     public String resultMesageAfterEnterEmail(String email){
         scrollToEmail();
         enterEmail(email);

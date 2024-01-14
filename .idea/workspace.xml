@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6171ae3-9860-466a-86e7-6b083f3bd461" name="Changes" comment="a new project created">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/a1/BaseView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/a1/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a6171ae3-9860-466a-86e7-6b083f3bd461" name="Changes" comment="добавлен тест с различными вариантами ввода адреса почты">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/a1/A1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/a1/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/a1/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/a1/A1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/a1/A1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704871989565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавлен тест с различными вариантами ввода адреса почты">
+      <created>1705069364046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705069364046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a new project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="a new project created" />
+    <MESSAGE value="добавлен тест с различными вариантами ввода адреса почты" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен тест с различными вариантами ввода адреса почты" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

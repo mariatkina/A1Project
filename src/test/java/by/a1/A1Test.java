@@ -11,8 +11,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import org.junit.jupiter.params.provider.ValueSource;
-import org.openqa.selenium.By;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.openqa.selenium.WebDriver;
@@ -47,9 +45,10 @@ public class A1Test {
             "'xxxxx', 'Проверьте указанный email.'",
             "'@user.iu', 'Проверьте указанный email.'",
             "'user03102023@useriu', 'Проверьте указанный email.'",
-            "'       ', 'Проверьте указанный email.'"
+            "'       ', 'Проверьте указанный email.'",
+            "'', 'Проверьте указанный email.'"
     })
-    @DisplayName("Var1: тест проверки на соответствие текста во всплывающем окне, после ввода адреса электронной почты и нажатия кнопки подтверждения")
+    @DisplayName("тест проверки на соответствие текста во всплывающем окне, после ввода адреса электронной почты и нажатия кнопки подтверждения")
     void Test1(String mailAdress, String expectedResult) {
         mainPage.rejectCookies();
         //или:
